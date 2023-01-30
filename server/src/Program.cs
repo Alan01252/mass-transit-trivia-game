@@ -28,8 +28,6 @@ namespace Acp.Arc.Service.ThreeEtl
 
             configurationBuilder
                 .SetBasePath(basePath)
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{environment}.json", optional: true, reloadOnChange: true)
                 .AddEnvironmentVariables();
         }
     }
