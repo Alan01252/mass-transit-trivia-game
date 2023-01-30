@@ -1,2 +1,4 @@
 server/src/obj/**
 server/src/bin/**
+.devcontainer
+.vscode
